@@ -1,0 +1,21 @@
+{
+  "name": "zncore/validation",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zn Developer",
+      "email": "zndev@ya.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "ZnCore\\Validation\\": "src",
+      "ZnCore\\Validation\\Tests\\": "tests"
+    }
+  }
+}

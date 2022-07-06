@@ -4,7 +4,7 @@ namespace ZnCore\Validation\Libs\Validators;
 
 use Psr\Container\ContainerInterface;
 use ZnCore\Container\Traits\ContainerAwareAttributeTrait;
-use ZnCore\Base\Instance\Libs\Resolvers\InstanceResolver;
+use ZnCore\Instance\Libs\Resolvers\InstanceResolver;
 use ZnCore\Validation\Interfaces\ValidatorInterface;
 use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Collection\Libs\Collection;

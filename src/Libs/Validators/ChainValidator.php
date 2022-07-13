@@ -3,11 +3,11 @@
 namespace ZnCore\Validation\Libs\Validators;
 
 use Psr\Container\ContainerInterface;
+use ZnCore\Collection\Interfaces\Enumerable;
+use ZnCore\Collection\Libs\Collection;
 use ZnCore\Container\Traits\ContainerAwareAttributeTrait;
 use ZnCore\Instance\Libs\Resolvers\InstanceResolver;
 use ZnCore\Validation\Interfaces\ValidatorInterface;
-use ZnCore\Collection\Interfaces\Enumerable;
-use ZnCore\Collection\Libs\Collection;
 
 class ChainValidator implements ValidatorInterface
 {

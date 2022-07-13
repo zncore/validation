@@ -2,7 +2,6 @@
 
 namespace ZnCore\Validation\Entities;
 
-use Symfony\Component\Validator\ConstraintViolation;
 use Symfony\Component\Validator\ConstraintViolationInterface;
 
 class ValidationErrorEntity

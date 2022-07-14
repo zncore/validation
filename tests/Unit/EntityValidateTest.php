@@ -1,11 +1,11 @@
 <?php
 
-namespace ZnCore\Domain\Tests\Unit;
+namespace ZnDomain\Domain\Tests\Unit;
 
 use ZnCore\Validation\Exceptions\UnprocessibleEntityException;
 use ZnCore\Entity\Helpers\EntityHelper;
 use ZnCore\Validation\Helpers\ValidationHelper;
-use ZnCore\Domain\Tests\Libs\AccessEntity;
+use ZnDomain\Domain\Tests\Libs\AccessEntity;
 use ZnTool\Test\Base\BaseTest;
 
 include __DIR__ . '/../Libs/AccessEntity.php';

@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnDomain\Domain\Tests\Libs;
+namespace ZnCore\Validation\Tests\Libs;
 
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 use ZnCore\Entity\Interfaces\EntityIdInterface;
